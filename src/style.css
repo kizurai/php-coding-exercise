@@ -1,0 +1,11 @@
+body  * {
+    display: none;
+}
+
+body::after {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    content: "Great Job!";
+    top: 50%;
+    left: 50%;
+}
